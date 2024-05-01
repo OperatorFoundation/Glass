@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var enableAudio = true
+
     var body: some View {
         
         NavigationView {
@@ -19,6 +21,8 @@ struct ContentView: View {
             .navigationTitle("Contacts")
             Image("FixMe")
         }
+
+        Toggle("Enable audio", isOn: $enableAudio)
     }
 }
 

@@ -15,6 +15,19 @@
 		AE31D8862603F426004BD851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE31D85B2603F425004BD851 /* ContentView.swift */; };
 		AE31D8872603F426004BD851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE31D85C2603F426004BD851 /* Assets.xcassets */; };
 		AE31D8882603F426004BD851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE31D85C2603F426004BD851 /* Assets.xcassets */; };
+		CABBB8A926D2E7D500AFAB01 /* BonjourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8A826D2E7D500AFAB01 /* BonjourController.swift */; };
+		CABBB8AA26D2E7D500AFAB01 /* BonjourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8A826D2E7D500AFAB01 /* BonjourController.swift */; };
+		CABBB8AE26D2F11A00AFAB01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABBB8AD26D2F11A00AFAB01 /* AudioToolbox.framework */; };
+		CABBB8B126D2F39C00AFAB01 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8B026D2F39C00AFAB01 /* Server.swift */; };
+		CABBB8B226D2F39C00AFAB01 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8B026D2F39C00AFAB01 /* Server.swift */; };
+		CABBB8B426D2FE4B00AFAB01 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8B326D2FE4B00AFAB01 /* Peer.swift */; };
+		CABBB8B526D2FE4B00AFAB01 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8B326D2FE4B00AFAB01 /* Peer.swift */; };
+		CABBB8B726D2FE9F00AFAB01 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8B626D2FE9F00AFAB01 /* Client.swift */; };
+		CABBB8B826D2FE9F00AFAB01 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8B626D2FE9F00AFAB01 /* Client.swift */; };
+		CABBB8BB26D3041700AFAB01 /* RoutingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8BA26D3041700AFAB01 /* RoutingController.swift */; };
+		CABBB8BC26D3041700AFAB01 /* RoutingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8BA26D3041700AFAB01 /* RoutingController.swift */; };
+		CABBB8C126D313EA00AFAB01 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8C026D313EA00AFAB01 /* AudioController.swift */; };
+		CABBB8C226D31F0E00AFAB01 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBB8C026D313EA00AFAB01 /* AudioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,14 @@
 		AE31D87C2603F426004BD851 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE31D8802603F426004BD851 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AE31D8822603F426004BD851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABBB8A826D2E7D500AFAB01 /* BonjourController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourController.swift; sourceTree = "<group>"; };
+		CABBB8AB26D2F11A00AFAB01 /* Glass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Glass.entitlements; sourceTree = "<group>"; };
+		CABBB8AD26D2F11A00AFAB01 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		CABBB8B026D2F39C00AFAB01 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		CABBB8B326D2FE4B00AFAB01 /* Peer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		CABBB8B626D2FE9F00AFAB01 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		CABBB8BA26D3041700AFAB01 /* RoutingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingController.swift; sourceTree = "<group>"; };
+		CABBB8C026D313EA00AFAB01 /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABBB8AE26D2F11A00AFAB01 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,18 +108,23 @@
 		AE31D8542603F424004BD851 = {
 			isa = PBXGroup;
 			children = (
+				CABBB8AB26D2F11A00AFAB01 /* Glass.entitlements */,
 				AE31D8592603F424004BD851 /* Shared */,
 				AE31D8632603F426004BD851 /* iOS */,
 				AE31D86A2603F426004BD851 /* macOS */,
 				AE31D8742603F426004BD851 /* Tests iOS */,
 				AE31D87F2603F426004BD851 /* Tests macOS */,
 				AE31D8622603F426004BD851 /* Products */,
+				CABBB8AC26D2F11A00AFAB01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		AE31D8592603F424004BD851 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CABBB8B926D303F900AFAB01 /* Routing */,
+				CABBB8AF26D2F38D00AFAB01 /* Network */,
+				CABBB8A726D2E7B500AFAB01 /* Bonjour */,
 				AE31D85A2603F425004BD851 /* GlassApp.swift */,
 				AE31D85B2603F425004BD851 /* ContentView.swift */,
 				AE31D85C2603F426004BD851 /* Assets.xcassets */,
@@ -149,6 +176,41 @@
 				AE31D8822603F426004BD851 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		CABBB8A726D2E7B500AFAB01 /* Bonjour */ = {
+			isa = PBXGroup;
+			children = (
+				CABBB8A826D2E7D500AFAB01 /* BonjourController.swift */,
+			);
+			path = Bonjour;
+			sourceTree = "<group>";
+		};
+		CABBB8AC26D2F11A00AFAB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CABBB8AD26D2F11A00AFAB01 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABBB8AF26D2F38D00AFAB01 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CABBB8B026D2F39C00AFAB01 /* Server.swift */,
+				CABBB8B326D2FE4B00AFAB01 /* Peer.swift */,
+				CABBB8B626D2FE9F00AFAB01 /* Client.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CABBB8B926D303F900AFAB01 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				CABBB8BA26D3041700AFAB01 /* RoutingController.swift */,
+				CABBB8C026D313EA00AFAB01 /* AudioController.swift */,
+			);
+			path = Routing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +293,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					AE31D8602603F426004BD851 = {
 						CreatedOnToolsVersion = 12.4;
@@ -309,7 +371,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE31D8852603F426004BD851 /* ContentView.swift in Sources */,
+				CABBB8BB26D3041700AFAB01 /* RoutingController.swift in Sources */,
 				AE31D8832603F426004BD851 /* GlassApp.swift in Sources */,
+				CABBB8B726D2FE9F00AFAB01 /* Client.swift in Sources */,
+				CABBB8B126D2F39C00AFAB01 /* Server.swift in Sources */,
+				CABBB8A926D2E7D500AFAB01 /* BonjourController.swift in Sources */,
+				CABBB8C226D31F0E00AFAB01 /* AudioController.swift in Sources */,
+				CABBB8B426D2FE4B00AFAB01 /* Peer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +386,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE31D8862603F426004BD851 /* ContentView.swift in Sources */,
+				CABBB8C126D313EA00AFAB01 /* AudioController.swift in Sources */,
+				CABBB8BC26D3041700AFAB01 /* RoutingController.swift in Sources */,
 				AE31D8842603F426004BD851 /* GlassApp.swift in Sources */,
+				CABBB8B826D2FE9F00AFAB01 /* Client.swift in Sources */,
+				CABBB8B226D2F39C00AFAB01 /* Server.swift in Sources */,
+				CABBB8AA26D2E7D500AFAB01 /* BonjourController.swift in Sources */,
+				CABBB8B526D2FE4B00AFAB01 /* Peer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,8 +544,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Glass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 67Y4NSLDQ3;
+				DEVELOPMENT_TEAM = CBZ6Z47N7R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -492,8 +567,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Glass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 67Y4NSLDQ3;
+				DEVELOPMENT_TEAM = CBZ6Z47N7R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -516,9 +592,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 67Y4NSLDQ3;
+				DEVELOPMENT_TEAM = CBZ6Z47N7R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -540,9 +617,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 67Y4NSLDQ3;
+				DEVELOPMENT_TEAM = CBZ6Z47N7R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
